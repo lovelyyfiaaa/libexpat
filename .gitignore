@@ -27,12 +27,25 @@ _$*
 *.ln
 core
 # CVS default ignores end
-expat/win32/bin/
-expat/win32/tmp/
-expat/.vs/
-expat/**/*.vcxproj.user
-expat/**/*.suo
-expat/**/*.sdf
-expat/**/*.VC.db
-expat/tests/**/Debug/
-expat/tests/**/Release/
+win32/bin/
+win32/tmp/
+.vs/
+**/*.vcxproj.user
+**/*.suo
+**/*.sdf
+**/*.VC.db
+tests/**/Debug/
+tests/**/Release/
+
+# From https://github.com/github/gitignore/blob/main/CMake.gitignore
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
